@@ -79,14 +79,17 @@ pip install numpy pandas matplotlib scipy joblib
 Optional:
 
 scipy.stats.qmc is used for Sobol quasi-random start-point generation when available.
-How to run
+
+## How to run
 
 Place your TRPL data file in the same folder as the script, or update the DATA_FILE path in the script.
 
 Then run:
 
 python physics_constraints_v6_0_300_bounds_only_convergence_tuned.py
-Customization
+
+
+## Customization
 
 You may want to edit the following settings depending on your experiment:
 
