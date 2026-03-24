@@ -42,13 +42,21 @@ Save plots, tables, and a run summary to disk.
 The script writes a complete set of analysis artifacts using the prefix rigorous_trpl_1CT_3CT_3LE. These outputs include:
 
 rigorous_trpl_1CT_3CT_3LE_fit.png — full log-log comparison between data and best fit
+
 rigorous_trpl_1CT_3CT_3LE_midregion.png — zoomed view of the selected mid-time fitting window
+
 rigorous_trpl_1CT_3CT_3LE_curves.csv — fitted total signal, baseline, radiative components, physical emission rates, and state populations
+
 rigorous_trpl_1CT_3CT_3LE_candidate_solutions.csv — top retained candidate solutions with fitted parameters and model metrics
+
 rigorous_trpl_1CT_3CT_3LE_parameter_uncertainty.csv — local uncertainty estimates and uncertainty-status notes
+
 rigorous_trpl_1CT_3CT_3LE_parameter_correlation.csv — parameter correlation matrix, or a message when correlation is not reliable
+
 rigorous_trpl_1CT_3CT_3LE_profile_likelihood.csv — profile-likelihood scan results when enabled
+
 rigorous_trpl_1CT_3CT_3LE_bootstrap.csv — bootstrap refit results when enabled
+
 rigorous_trpl_1CT_3CT_3LE_summary.csv — run metadata, physics settings, fit-quality metrics, identifiability diagnostics, best-fit parameters, and yields.
 Dependencies
 
